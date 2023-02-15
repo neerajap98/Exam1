@@ -159,7 +159,7 @@ header nav.right ul li a.button:hover{
     line-height: 1.8em;
 }
 #spotlight div.left a.button {
-    padding: 12px 24px;
+    padding: 15px 24px;
     color: #fff;
     width: 30%;
     border-radius: 5px;
@@ -310,7 +310,7 @@ header nav.right ul li a.button:hover{
     border-radius: 8px;
     width: 100%;
     height: 500px;
-    padding: 150px 100px;
+    padding: 100px 100px;
 }
 #design div.content h2 {
     font-size: 42px;
@@ -328,7 +328,7 @@ header nav.right ul li a.button:hover{
 }
 #design div.content form {
     background: #fff;
-    padding: 15px 25px;
+    padding: 20px 25px;
     width: 35%;
     border-radius: 8px;
     position: relative;
@@ -337,7 +337,7 @@ header nav.right ul li a.button:hover{
     display: block;
 }
 #design div.content form a.button {
-    padding: 14px 25px;
+    padding: 19px 25px;
     border-radius: 8px;
     position: absolute;
     display: block;
@@ -349,7 +349,7 @@ header nav.right ul li a.button:hover{
     cursor: pointer;
     background: linear-gradient(to right, #d45945, #a14d9b);
 }
-/* footer {
+footer {
     background: #141414;
     padding: 60px 0;
     
@@ -376,7 +376,8 @@ footer div.address h1 a img {
 }
 footer div.address p {
     font-size: 16px;
-    color: #5b5a5d;
+    color: #bdbdbd;
+    font-family: Gordita-Regular;
 }
 footer div.right {
     display: flex;
@@ -392,25 +393,37 @@ footer div.right ul {
 }
 footer div.right ul li {
     margin-right: 10px;
-    font-size: 16px;
+    width: 25%;
 }
 footer div.right ul li:last-child {
     margin-right: 0px;
 }
 footer div.right ul li a {
-    
+    font-size: 16px;
+    color: #bdbdbd;
+    font-family: Gordita-Regular;
+}
+footer div.right ul li:hover a {
+    font-weight: 700;
+    color: #fff;
+    transition:all .5s ease-in-out ;
+    transform: translateY(2%);
 }
 footer div.right div.vl {
-    border-left: 1px solid #5b5a5d;
+    border-left: 1px solid #bdbdbd;
     height: 60px;
 }
 footer div.right span {
     font-size: 16px;
+    color: #bdbdbd;
+    font-family: Gordita-Regular;
 }
 footer div.right span a {
-    
-} */
-
+    color: #d45945;
+    font-size: 16px;
+    margin-left: 10px;
+    font-weight: 600;
+}
 
 
 
