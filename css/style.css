@@ -1,0 +1,303 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-weight: normal;
+	text-decoration: none;
+	outline: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+ol, ul {
+	list-style: none;
+}
+del {
+	text-decoration: line-through;
+}
+body {
+	font-family: "Gordita-Regular", Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	color: #5b5a5d;
+	overflow-x: hidden;
+	min-width: 320px;
+	font-weight: 400;
+}
+input,textarea,select{
+	font-family: "Gordita-Regular", Arial, Helvetica, sans-serif;
+	font-weight: 400;
+}
+a{
+	color: #5f5e5f;
+}
+a:hover,.submit:hover{
+	filter: alpha(opacity = 85);
+	-moz-opacity: 0.85;
+	-khtml-opacity: 0.85;
+	opacity: 0.85;
+}
+.thumb{
+	display: block;
+}
+.thumb img{
+	display: block;
+	width:100%;
+}
+p{
+	line-height:1.6em;
+	font-size: 16px;
+	font-family: "Gordita-Regular", Arial;
+	font-weight: 400;
+}
+.hidden{
+	display:none;
+}
+br.clear {
+	clear: both;
+	line-height: 0;
+}
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+	max-width:1300px;
+}
+@font-face {
+	font-family: 'Gordita-Medium';
+	src:url('../fonts/Gordita\ Medium.woff') format('woff');
+	font-style: normal;
+}
+@font-face {
+    font-family: 'Gordita-Regular';
+    src: url("../fonts/Gordita\ Regular.woff") format("woff");
+    font-style: normal
+}
+#main {
+    background: #141414;
+    padding: 24px 0;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header a {
+    display: inline-block;
+}
+header a img {
+    display: block;
+    width: 100%;
+}
+header nav.right {
+    
+}
+header nav.right ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav.right ul li {
+    font-size: 16px;
+    font-weight: normal;
+    color: #3b3a3b;
+    margin-right: 30px;
+}
+header nav.right ul li:last-child {
+    margin-right: 0;
+}
+header nav.right ul li a {
+    
+}
+header nav.right ul li a:hover {
+    font-weight: 700;
+    color: #fff;
+    transition:all .5s ease-in-out ;
+    transform: translateY(2%);
+}
+header nav.right ul li a.button {
+    font-size: 16px;
+    font-weight: 700;
+    color: #d45945;
+    padding: 14px 26px;
+    background: linear-gradient(#141414,#141414) padding-box,
+                linear-gradient(to right, #d45945, #a14d9b) border-box;
+    border-radius: 5px;
+    border: 1px solid transparent;
+}
+header nav.right ul li a.button:hover{
+    background: linear-gradient(to right, #d45945, #a14d9b);
+    color: #fff;
+    transform:none;
+    transition:all .5s ease-in-out;
+}
+#spotlight {
+    padding: 90px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    
+}
+#spotlight div.left {
+    width: 60%;
+}
+#spotlight div.left h2 {
+    font-size: 42px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 28px;
+}
+#spotlight div.left h2 a {
+    color: #d45945;
+    font-weight: 700;
+    font-size: 42px;
+}
+#spotlight div.left p {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+#spotlight div.left a.button {
+    padding: 12px 24px;
+    color: #fff;
+    width: 30%;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+    display: block;
+    background-image: linear-gradient(to right, #d45945, #a14d9b);
+}
+#spotlight div.left a.button b {
+    font-weight: 700;
+    color: #fff;
+}
+#spotlight div.right {
+    width: 50%;
+}
+#spotlight div.right div.img_container{
+    width: 100%;
+    position: relative;
+    z-index: 0;
+}
+#spotlight div.right div.img_container a img {
+    display: block;
+    width: 100%;
+}
+#spotlight div.right div.img_container::before {
+    content: "";
+    background: url(../images/pattern.png) no-repeat center;
+    display: block;
+    width: 40%;
+    height: 500px;
+    z-index: -1;
+    filter: blur(35px);
+    position: absolute; 
+    top: 140px;
+    right: 450px;
+    rotate: -5deg;
+}   
+#spotlight div.right div.img_container::after {
+    content: "";
+    background: url(../images/pattern.png) no-repeat center;
+    display: block;
+    width: 40%;
+    height: 200px;
+    z-index: -1;
+    filter: blur(50px);
+    position: absolute;
+    top: 55px;
+    right: 35px;
+    rotate: 45deg;
+}
+/* #awards {
+    padding: 60px 0;
+    background: #141414;
+}
+#awards ul {
+    display: flex;
+    justify-content: space-between;
+
+}
+#awards ul li {
+    padding: 30px 20px;
+    width: 24.5%;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background: linear-gradient(#141414,#141414) padding-box,
+                linear-gradient(to right, #d45945, #a14d9b) border-box;
+}
+#awards ul li div.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+#awards ul li div.top a {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    background: #5b5a5d;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#awards ul li div.top a img {
+    display: block;
+    width: 100%;
+}
+#awards ul li div.top span {
+    font-size: 16px;
+    font-weight: 600;
+}
+#awards ul li div.middle {
+    
+}
+#awards ul li div.middle h3 {
+    font-size: 16px;
+    margin-bottom: 35px;
+}
+#awards ul li div.middle p {
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 35px;
+}
+#awards ul li div.middle div.image_container {
+    width: 10%;
+    margin-bottom: 35px;
+}
+#awards ul li div.middle div.image_container img {
+    display: block;
+    width: 100%;
+}
+#awards ul li div.bottom {
+    display: flex;
+    justify-content: space-between;
+}
+#awards ul li div.bottom small {
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+
+}
+#awards ul li div.bottom span {
+    width: 10%;
+}
+#awards ul li div.bottom span img {
+    width: 100%;
+    display: block;
+}
+#awards ul li:hover {
+    background-image: linear-gradient(to right, #d45945, #a14d9b);
+    transform: scale(105%);
+    color: #fff;
+    transition: all .5s ease-in-out;
+} */
+
+
+
+
+
+
+ 
