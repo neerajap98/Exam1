@@ -298,7 +298,7 @@ header nav.right ul li a.button:hover{
 #awards ul li:hover div.top a {
     background: #141414;
 }
-/* #design {
+#design {
     padding: 60px 0;
     background: #141414;
 }
@@ -337,7 +337,7 @@ header nav.right ul li a.button:hover{
     display: block;
 }
 #design div.content form a.button {
-    padding: 17px 25px;
+    padding: 14px 25px;
     border-radius: 8px;
     position: absolute;
     display: block;
@@ -348,4 +348,78 @@ header nav.right ul li a.button:hover{
     font-weight: 600;
     cursor: pointer;
     background: linear-gradient(to right, #d45945, #a14d9b);
+}
+/* footer {
+    background: #141414;
+    padding: 60px 0;
+    
+}
+footer section.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer div.address {
+    width: 20%;
+}
+footer div.address h1 {
+    width: 80%;
+    margin-bottom: 10px;
+}
+footer div.address h1 a {
+    display: block;
+    
+}
+footer div.address h1 a img {
+    display: block;
+    width: 100%;
+}
+footer div.address p {
+    font-size: 16px;
+    color: #5b5a5d;
+}
+footer div.right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 55%;
+}
+footer div.right ul {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    align-items: center;
+}
+footer div.right ul li {
+    margin-right: 10px;
+    font-size: 16px;
+}
+footer div.right ul li:last-child {
+    margin-right: 0px;
+}
+footer div.right ul li a {
+    
+}
+footer div.right div.vl {
+    border-left: 1px solid #5b5a5d;
+    height: 60px;
+}
+footer div.right span {
+    font-size: 16px;
+}
+footer div.right span a {
+    
 } */
+
+
+
+
+
+
+
+
+
+
+
+
+
