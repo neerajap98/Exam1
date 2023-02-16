@@ -769,7 +769,53 @@ footer div.right span a {
        display: none;
     }
 }
-
+@media all and (max-width:640px) {
+    #main{
+        padding-bottom: 0;
+    }
+    #spotlight {
+        padding-top: 50px 0 0;
+    }
+    #spotlight div.left {
+        width: 70%;
+    }
+    #spotlight div.left h2 {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+    #spotlight div.left h2 a {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+    #spotlight div.left p {
+        font-size: 10px;
+        width: 96%;
+    }
+    #spotlight div.right div.img_container::after {
+        position: absolute;
+        top: 9px;
+        right: 76px;
+    }
+    #spotlight div.left a.button {
+        width: 50%;
+        padding: 8px 12px;
+        font-size: 10px;
+    }
+    #awards ul li {
+        width: 49%;
+    }
+    #awards ul li div.top a {
+        width: 45px;
+        height: 45px;
+    }
+    #awards ul li div.top span {
+        font-size: 12px;
+    }
+    #awards ul li div.middle h3 {
+        font-size: 14px;
+        margin-bottom: 24px;
+    }
+}
 
 
 
