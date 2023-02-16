@@ -774,7 +774,7 @@ footer div.right span a {
         padding-bottom: 0;
     }
     #spotlight {
-        padding-top: 50px 0 0;
+        padding: 50px 0 0;
     }
     #spotlight div.left {
         width: 70%;
@@ -797,9 +797,9 @@ footer div.right span a {
         right: 76px;
     }
     #spotlight div.left a.button {
-        width: 50%;
+        width: 38%;
         padding: 8px 12px;
-        font-size: 10px;
+        font-size: 8px;
     }
     #awards ul li {
         width: 49%;
@@ -881,7 +881,97 @@ footer div.right span a {
         font-size: 10px;
     }
 }
-
+@media all and (max-width:480px){
+    header h1.left {
+        width: 40%;
+    }
+    #spotlight {
+        padding: 16px 0 0;
+        flex-wrap: wrap;
+        align-items: center;
+        text-align: center;
+    }
+    #spotlight div.right div.img_container {
+        display: none;
+    }
+    #spotlight div.right div.img_container::after{
+        filter: blur(75px);
+    }
+    #spotlight div.left h2 {
+        font-size: 20px;
+        margin-bottom: 16px;
+    }
+    #spotlight div.left h2 a {
+        font-size: 20px;
+    }
+    #spotlight div.left p {
+        font-size: 10px;
+        width: 100%;
+        margin-bottom: 16px;
+    }
+    #spotlight div.left a.button {
+        width: 50%;
+        padding: 8px 12px;
+        font-size: 8px;
+        margin: auto;
+    }
+    #awards {
+        padding: 40px 0 30px;
+    }
+    #awards ul li {
+        width: 100%;
+        padding: 30px;
+    }
+    #awards ul li div.top a {
+        width: 50px;
+        height: 50px;
+    }
+    #awards ul li div.top span {
+        font-size: 14px;
+    }
+    #awards ul li div.middle h3 {
+        font-size: 16px;
+    }
+    #awards ul li div.middle p {
+        font-size: 18px;
+    }
+    #awards ul li div.bottom small {
+        font-size: 16px;
+    }
+    #design{
+        padding: 15px 0;
+    }
+    #design div.content {
+        height: 175px;
+        text-align: center;
+        padding: 10px;
+    }
+    #design div.content p {
+        font-size: 12px;
+        width: 90%;
+        margin: 10px auto ;
+    }
+    #design div.content form {
+        padding: 5px 10px;
+        width: 50%;
+        margin: auto;
+    }
+    #design div.content form a.button {
+        padding: 5px 10px;
+    }
+    footer div.address {
+        width: 50%;
+    }
+    footer div.right{
+        width: 50%;
+    }  
+    footer div.right span {
+        font-size: 8px;
+    } 
+    footer div.right span a {
+        font-size: 8px;
+    } 
+}
 
 
 
