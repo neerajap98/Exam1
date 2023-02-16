@@ -736,7 +736,7 @@ footer div.right span a {
         height: 320px;
     }
     #design div.content h2 {
-        font-size: 30px;
+        font-size: 34px;
         width: 70%;
         margin-bottom: 20px;
     }
@@ -835,7 +835,7 @@ footer div.right span a {
         padding: 30px;
     }
     #design div.content h2 {
-        font-size: 24px;
+        font-size: 26px;
         width: 90%;
         margin: 0 auto ;
     }
@@ -939,14 +939,14 @@ footer div.right span a {
         padding: 15px 0;
     }
     #design div.content {
-        height: 175px;
+        height: 190px;
         text-align: center;
-        padding: 10px;
+        padding: 15px 10px 10px;
     }
     #design div.content p {
         font-size: 12px;
         width: 90%;
-        margin: 10px auto ;
+        margin: 14px auto ;
     }
     #design div.content form {
         padding: 5px 10px;
@@ -979,13 +979,16 @@ footer div.right span a {
         font-size: 13px;
     }
     #spotlight div.left a.button {
-        width: 70%;
+        width: 69%;
         padding: 14px 20px;
         font-size: 10px;
         margin: auto;
     }
     #awards ul li {
         padding: 25px;
+    }
+    #design div.content h2 {
+        font-size: 20px;
     }
     #design div.content form {
         padding: 8px 16px;
