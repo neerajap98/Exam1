@@ -894,9 +894,6 @@ footer div.right span a {
     #spotlight div.right div.img_container {
         display: none;
     }
-    #spotlight div.right div.img_container::after{
-        filter: blur(75px);
-    }
     #spotlight div.left h2 {
         font-size: 20px;
         margin-bottom: 16px;
@@ -910,9 +907,9 @@ footer div.right span a {
         margin-bottom: 16px;
     }
     #spotlight div.left a.button {
-        width: 50%;
+        width: 55%;
         padding: 8px 12px;
-        font-size: 8px;
+        font-size: 12px;
         margin: auto;
     }
     #awards {
@@ -972,7 +969,33 @@ footer div.right span a {
         font-size: 8px;
     } 
 }
-
+@media all and (max-width:360px){
+    #spotlight {
+        padding: 20px 0 20px;
+    }
+    #spotlight div.left p {
+        font-size: 13px;
+    }
+    #spotlight div.left a.button {
+        width: 70%;
+        padding: 14px 20px;
+        font-size: 10px;
+        margin: auto;
+    }
+    #awards ul li {
+        padding: 25px;
+    }
+    #design div.content form {
+        padding: 8px 16px;
+        width: 60%;
+    }
+    #design div.content form a.button {
+        padding: 8px 10px;
+    }
+    footer div.address {
+        width: 60%;
+    }
+}
 
 
 
