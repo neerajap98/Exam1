@@ -803,10 +803,11 @@ footer div.right span a {
     }
     #awards ul li {
         width: 49%;
+        margin-bottom: 9px;
     }
     #awards ul li div.top a {
-        width: 45px;
-        height: 45px;
+        width: 40px;
+        height: 40px;
     }
     #awards ul li div.top span {
         font-size: 12px;
@@ -814,6 +815,70 @@ footer div.right span a {
     #awards ul li div.middle h3 {
         font-size: 14px;
         margin-bottom: 24px;
+    }
+    #awards ul li div.middle p {
+        font-size: 16px;
+        margin-bottom: 24px;
+    }
+    #awards ul li div.middle div.image_container {
+        margin-bottom: 20px;
+    }
+    #awards ul li div.bottom small {
+        font-size: 14px;
+    }
+    #design {
+        padding: 25px 0;
+    }
+    #design div.content {
+        height: 250px;
+        text-align: center;
+        padding: 30px;
+    }
+    #design div.content h2 {
+        font-size: 24px;
+        width: 90%;
+        margin: 0 auto ;
+    }
+    #design div.content p {
+        font-size: 12px;
+        width: 80%;
+        margin:20px 37px;
+    }    
+    #design div.content form {
+        padding: 8px 10px;
+        width: 45%;
+        margin: auto;
+    }
+    #design div.content form input[type=email] {
+        font-size: 8px;
+    }
+    #design div.content form a.button {
+        padding: 8px 10px;
+        font-size: 8px;
+    }
+    footer section.wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    footer div.address {
+        width: 40%;
+        text-align: center;
+    }
+    footer div.address h1 {
+        width: 80%;
+        margin: 10px 18px;
+    }
+    footer div.address p {
+        font-size: 10px;
+    }
+    footer div.right span {
+        font-size: 10px;
+    }
+    footer div.right span a {
+        font-size: 10px;
     }
 }
 
