@@ -683,7 +683,92 @@ footer div.right span a {
         width: 100%;
     }
 }
-
+@media all and (max-width:768px) {
+    #main {
+        padding-top: 24px;
+    }
+    #main section.wrapper {
+        width: 90%;
+        margin: 0 auto;
+        max-width: 1300px;
+    }
+    header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    header h1.left {
+        width: 50%;
+    }
+    header nav.right {
+        display: none;
+    }
+    #spotlight {
+        padding-bottom: 30px ;
+        justify-content: center;
+    }
+    #spotlight div.right {
+        width: 40%;
+    }
+    #spotlight div.right div.img_container::before {
+        display: none;
+    }
+    #spotlight div.right div.img_container::after {
+        position: absolute;
+        top: 30px;
+        right: 100px
+    }
+    #spotlight div.left h2 {
+        font-size: 32px;
+        margin-bottom: 30px;
+    }
+    #spotlight div.left h2 a {
+        font-size: 32px;
+    }
+    #spotlight div.left a.button {
+        width: 51%;
+        padding: 10px 22px;
+    }
+    #awards {
+        padding-bottom: 20px;
+    }
+    #design div.content {
+        height: 320px;
+    }
+    #design div.content h2 {
+        font-size: 30px;
+        width: 70%;
+        margin-bottom: 20px;
+    }
+    #design div.content p {
+        font-size: 12px;
+        width: 65%;
+        margin-bottom: 20px;
+    }
+    #design div.content form {
+        padding: 12px 16px;
+        width: 45%;
+    }
+    #design div.content form input[type=email] {
+        font-size: 10px;
+    }
+    #design div.content form a.button {
+        padding: 12px 16px;
+        font-size: 10px;
+    }
+    footer {
+        padding:0 0 20px ;
+    }
+    footer div.address {
+        width: 40%;
+    }
+    footer div.address p {
+        font-size: 12px;
+    }
+    footer div.right ul {
+       display: none;
+    }
+}
 
 
 
