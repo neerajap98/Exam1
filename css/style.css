@@ -907,9 +907,9 @@ footer div.right span a {
         margin-bottom: 16px;
     }
     #spotlight div.left a.button {
-        width: 55%;
-        padding: 8px 12px;
-        font-size: 12px;
+        width: 48%;
+        padding: 8px 10px;
+        font-size: 9px;
         margin: auto;
     }
     #awards {
@@ -952,9 +952,11 @@ footer div.right span a {
         padding: 5px 10px;
         width: 50%;
         margin: auto;
+        border-radius: 5px;
     }
     #design div.content form a.button {
         padding: 5px 10px;
+        border-radius: 5px;
     }
     footer div.address {
         width: 50%;
@@ -977,8 +979,8 @@ footer div.right span a {
         font-size: 13px;
     }
     #spotlight div.left a.button {
-        width: 60%;
-        padding: 14px 18px;
+        width: 70%;
+        padding: 14px 20px;
         font-size: 10px;
         margin: auto;
     }
@@ -988,9 +990,11 @@ footer div.right span a {
     #design div.content form {
         padding: 8px 16px;
         width: 60%;
+        border-radius: 5px;
     }
     #design div.content form a.button {
         padding: 8px 10px;
+        border-radius: 5px;
     }
     footer div.address {
         width: 60%;
