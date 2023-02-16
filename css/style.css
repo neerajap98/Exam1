@@ -416,6 +416,7 @@ footer div.right ul li:hover a {
 footer div.right div.vl {
     border-left: 1px solid #bdbdbd;
     height: 60px;
+    display: block;
 }
 footer div.right span {
     font-size: 16px;
@@ -442,10 +443,10 @@ footer div.right span a {
     }
     header nav.right ul li:last-child {
         margin-right: 0;
-        width: 25%;
+        width: 22%;
     }
     header nav.right ul li a.button {
-        margin-right: 10px;
+        margin-right: 0px;
         padding: 12px 24px;
         font-size: 14px;
     }
@@ -513,12 +514,54 @@ footer div.right span a {
     #design div.content h2 {
         font-size: 40px;
         width: 65%;
-        margin-bottom: 30px;
+        margin-bottom: 35px;
     }
     #design div.content p {
         font-size: 17px;
         width: 55%;
-        margin-bottom: 30px;
+        margin-bottom: 35px;
+    }
+    #design div.content form {
+        padding: 18px 20px;
+        width: 40%;
+    }
+    #design div.content form a.button {
+        padding: 18px 20px;
+        font-size: 14px;
+    }
+    footer div.address p {
+        font-size: 14px;
+    }
+    footer div.right {
+       flex-wrap: wrap;
+       justify-content: center;
+       line-height: 1.8em;
+        width: 40%;
+    }
+    footer div.right ul {
+        display: flex;
+        width: 85%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    footer div.right ul li {
+        margin-right: 8px;
+        width: 23%;
+    }
+    footer div.right ul li {
+        width: 26%;
+    }
+    footer div.right ul li a {
+        font-size: 12px;
+    }
+    footer div.right div.vl{
+        display: none;
+    }
+    footer div.right span {
+        font-size: 12px;
+    }
+    footer div.right span a {
+        font-size: 12px;
     }
 }
 
