@@ -474,8 +474,8 @@ footer div.right span a {
         z-index: -1;
         filter: blur(35px);
         position: absolute;
-        top: 155px;
-        right: 320px;
+        top: 240px;
+        right: 415px;
         rotate: -27deg;
     }
     #awards {
@@ -562,6 +562,125 @@ footer div.right span a {
     }
     footer div.right span a {
         font-size: 12px;
+    }
+}
+@media all and (max-width:980px){
+    #main section.wrapper {
+        width: 95%;
+        margin: 0 auto;
+    }
+    header nav.right {
+        width: 70%;
+    }
+    header nav.right ul {
+       text-align: center;
+    }
+    header nav.right ul li {
+        margin-right: 8px;
+        width: 15%;
+        font-size: 12px;
+    }
+    header nav.right ul li a.button {
+        margin-right: 0px;
+        padding: 10px 22px;
+        font-size: 12px;
+    }
+    #spotlight {
+        padding-top: 70px;
+    }
+    #spotlight div.left h2 {
+        font-size: 40px;
+        margin-bottom: 35px;
+    }
+    #spotlight div.left p {
+        font-size: 14px;
+    }
+    #spotlight div.left a.button {
+        width: 42%;
+       padding: 12px 24px;
+    }
+    #spotlight div.right div.img_container::before {
+        content: "";
+        background: url(../images/pattern.png) no-repeat center;
+        display: block;
+        width: 45%;
+        height: 220px;
+        z-index: -1;
+        filter: blur(35px);
+        position: absolute;
+        top: 150px;
+        right: 255px;
+        rotate: -27deg;
+    }
+    #awards {
+        padding: 35px 0;
+    }
+    #awards ul {
+        flex-wrap: wrap;
+    }
+    #awards ul li {
+        width: 48%;
+        margin-bottom: 28px;
+    }
+    #awards ul li div.top span {
+        font-size: 14px;
+    }
+    #awards ul li div.middle h3 {
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+    #awards ul li div.middle p {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+    div.image_container {
+        margin-bottom: 30px;
+    }
+    #awards ul li div.bottom {
+        margin-bottom: 10px;
+    }
+    #awards ul li div.bottom small {
+        font-size: 16px;
+    }
+    #design {
+        padding: 50px 0;
+    }
+    #design div.content {
+        padding: 50px ;
+        height: 400px;
+    }
+    #design div.content h2 {
+        font-size: 34px;
+        width: 70%;
+        margin-bottom: 40px;
+    }
+    #design div.content p {
+        font-size: 15px;
+        width: 62%;
+        margin-bottom: 40px;
+    }
+    #design div.content form a.button {
+        padding: 17px 20px;
+        font-size: 12px;
+    }
+    #design div.content form {
+        padding: 17px 20px;
+        width: 45%;
+    }
+    #design div.content form input[type=email] {
+        font-size: 12px;
+    }
+    footer {
+        padding: 45px 0;
+    }
+    footer div.address {
+        width: 33%;
+    }
+    footer div.right {
+        width: 45%;
+    }
+    footer div.right ul {
+        width: 100%;
     }
 }
 
