@@ -325,7 +325,7 @@ header nav.right ul li a.button:hover{
 }
 #design div.content p {
     font-size: 20px;
-    font-family: Gordita-Regular;
+    font-family:"Gordita-Regular" ;
     color: #949494;
     width: 45%;
     margin-bottom: 35px;
@@ -381,7 +381,7 @@ footer div.address h1 a img {
 footer div.address p {
     font-size: 16px;
     color: #bdbdbd;
-    font-family: Gordita-Regular;
+    font-family: "Gordita-Regular";
 }
 footer div.right {
     display: flex;
